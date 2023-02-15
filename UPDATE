@@ -1,0 +1,16 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -d \
+'{
+    "token": "90932597|-31949277728968257|90948996",
+    "dbName": "Student",
+    "cmd": "UPDATE",
+    "rel": "Student-Rel",
+    
+    "jsonStr": {
+      "1": { "name": "Anish Katkar"}
+      "2": { "name": "Harish Marjive"}
+    }
+
+}' \
+ 'http://api.login2explore.com:5577/api/iml'
