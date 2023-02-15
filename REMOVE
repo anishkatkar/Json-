@@ -1,0 +1,12 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -d \
+'{
+    "token": "90932597|-31949277728968257|90948996",
+    "cmd": "REMOVE",
+    "dbName": "Employee",
+    "rel": "Emp-Rel",
+    "record": 1,
+    "jsonStr" : {}
+}' \
+ 'http://api.login2explore.com:5577/api/iml'
